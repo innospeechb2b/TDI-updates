@@ -1,2 +1,15 @@
-# TDI-updates
-Public binary updates for Innospeech Windows kiosks. Source code is private.
+# 이노스피치 키오스크 공개 업데이트
+
+이 저장소는 Windows 키오스크의 설치파일과 업데이트 정보만 제공합니다. 개발 소스는 별도 비공개 저장소에서 관리합니다.
+
+## 첫 업데이트 시험
+
+1. 기존 앱과 진행 중인 사진·메일·출력 작업을 종료합니다.
+2. [1.35.0 최초 설치파일](https://github.com/innospeechb2b/TDI-updates/releases/download/v1.35.0/Innospeech-Kiosk-1.2-v1.35.0-Setup.exe)을 설치하고 실행합니다.
+3. 관리자 → 업데이트 관리 → 업데이트 확인을 누릅니다. 다운로드 완료 후 업데이트 적용을 확인하면 1.35.1로 다시 실행되어야 합니다. 설정과 버전 표시를 확인해 주세요.
+
+공개 배포본은 공용 API 키를 포함하지 않으며 AI 도우미와 유료 사진 API 대체는 비활성화됩니다. GPT·Gemini 계정 연결과 로컬 배리어프리 음성 안내는 유지됩니다.
+
+프로그램은 새 버전을 자동 다운로드하지만 설치는 관리자 확인 후 진행합니다. 다운로드 실패는 일반 앱 사용에 영향을 주지 않습니다. 차등 업데이트를 시도하며 캐시가 없거나 실패하면 전체 파일을 받습니다.
+
+[전체 버전과 설치파일](https://github.com/innospeechb2b/TDI-updates/releases)
